@@ -1,8 +1,8 @@
 {
   "name": "rickandmorty",
-  "homepage": "https://kiarash8.github.io/rickandmorty",
+  "homepage": "https://kiarash8.github.io/rickandmorty/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -21,7 +21,7 @@
   "scripts": {
     "start": " env-cmd -f .env.development react-scripts start",
     "build": "env-cmd -f .env.development react-scripts build",
-    "predeploy": "env-cmd -f .env.development npm run build",
+    "predeploy": "env-cmd -f .env.development yarn run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
