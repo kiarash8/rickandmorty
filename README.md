@@ -1,6 +1,7 @@
 # The Rick and Morty
 
-Rick & Morty profiles of the characters with pagination
+Rick & Morty profiles of the characters with pagination [Demo](https://kiarash8.github.io/rickandmorty/)
+
 
 Using the Rick & Morty API [(rickandmortyapi.com)](https://www.typescriptlang.org/).
 
