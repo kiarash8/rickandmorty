@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.d75cd095.js",
-    "index.html": "/index.html",
-    "main.d75cd095.js.map": "/static/js/main.d75cd095.js.map"
+    "main.js": "/rickandmorty/static/js/main.d75cd095.js",
+    "index.html": "/rickandmorty/index.html",
+    "main.d75cd095.js.map": "/rickandmorty/static/js/main.d75cd095.js.map"
   },
   "entrypoints": [
     "static/js/main.d75cd095.js"
