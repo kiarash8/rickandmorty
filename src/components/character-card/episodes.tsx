@@ -38,9 +38,9 @@ export const Episodes: FC<{
             <Skeleton variant="text" height={24} width={60} /> 
             <Skeleton variant="text" height={24} width={40} /> 
           </>
-          : (data && data?.length > 0) ? data.map((item, index) =>
+          : (data && data?.length > 0) ? data.map(item =>
               <Chip
-                key={index}
+                key={item.id}
                 label={item.name}
                 variant="outlined"
                 size="small"
