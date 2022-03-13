@@ -30,6 +30,11 @@ export const Characters: FC = () => {
 
   const handlePageChange = (_: unknown, newPage: number) => {
     setPage(newPage);
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   };
  
   return (
